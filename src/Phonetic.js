@@ -1,4 +1,5 @@
 import React from "react";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   return (
@@ -7,10 +8,16 @@ export default function Phonetic(props) {
       <br />
       {props.phonetic.audio.length > 0 ? (
         <>
-          <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
+          <br />
+
+          <a
+            href={props.phonetic.audio}
+            target="_blank"
+            rel="noreferrer"
+            className="pronunciation"
+          >
             pronunciation
           </a>
-          <br />
         </>
       ) : null}
     </div>

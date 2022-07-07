@@ -6,11 +6,16 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         dictionary
-        <div className="Undertitle">look for your word ...</div>
+        <div className="Undertitle">
+          <i className="bi bi-search"></i> ... look for your word
+        </div>
       </header>
       <main>
-        <Dictionary />
+        <br />
+        <Dictionary defaultKeyword="summer" />
       </main>
+      <br />
+      <footer className="info">open-source code by Ana Caserman</footer>
     </div>
   );
 }

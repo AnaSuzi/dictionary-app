@@ -1,0 +1,22 @@
+.pronunciation {
+  font-family: "Inconsolata", monospace;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #b2c8df;
+  font-size: 15px;
+  border: 1px solid #b2c8df;
+  padding: 5px 5px;
+  border-radius: 20px;
+  font-weight: 900;
+}
+.Phonetic {
+  font-family: "Inconsolata", monospace;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  opacity: 0.7;
+}
+.pronunciation:hover {
+  color: #b2c8df;
+  background: white;
+}
