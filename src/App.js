@@ -12,7 +12,7 @@ export default function App() {
       </header>
       <main>
         <br />
-        <Dictionary defaultKeyword="summer" />
+        <Dictionary defaultKeyword="ocean" />
       </main>
       <br />
       <footer className="info">open-source code by Ana Caserman</footer>
