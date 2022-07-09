@@ -15,4 +15,14 @@
   text-align: center;
   font-family: "Inconsolata", monospace;
   font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: #e4cda7;
+}
+
+.link:hover {
+  color: #b2c8df;
 }

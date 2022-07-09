@@ -15,7 +15,17 @@ export default function App() {
         <Dictionary defaultKeyword="ocean" />
       </main>
       <br />
-      <footer className="info">open-source code by Ana Caserman</footer>
+      <footer className="info">
+        <a
+          className="link"
+          href="https://github.com/AnaSuzi/dictionary-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-source code
+        </a>{" "}
+        by Ana Caserman
+      </footer>
     </div>
   );
 }
